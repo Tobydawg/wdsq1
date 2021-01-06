@@ -102,11 +102,11 @@ if(correct){
 
  }
 
-
- const questions = [
+const questions = [
     {
         question:'Lead Singer of Rolling Stones?',
         answers: [
+            
             { text: 'Mick Jagger', correct:true},
             { text: 'Flavor Flav', correct: false},
             { text: 'Julio Iglesias', correct:false},
@@ -135,7 +135,41 @@ if(correct){
             { text: 'Boston', correct: false}
         
         ]
-    }
+    },
+
+        {
+            question:'How much does james pussy hurt?',
+            answers: [
+                
+                { text: 'A lot!', correct:true},
+                { text: 'not much...', correct: false},
+                { text: 'a little...', correct:false},
+                { text: 'James does not have a pussy', correct: false}
+            ]
+        },
+        
+        
+        
+        {
+            question:'How many hos has josh banged?',
+            answers: [
+                { text: '1', correct:false},
+                { text: '100', correct: false},
+                { text: '1 Million', correct:true},
+                { text: '100,000', correct: false}
+            ]
+        },
+        
+        {
+            question:'who knows more about tequila?',
+            answers: [
+                { text: 'Cary', correct:false},
+                { text: 'James', correct: false},
+                { text: 'shaun', correct:true},
+                { text: 'Josh', correct: false}
+            
+            ]
+        }
     ]
     
     
